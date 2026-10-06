@@ -1,0 +1,4 @@
+Wallet brand artwork distributed by RainbowKit (MIT).
+https://github.com/rainbow-me/rainbowkit/tree/main/packages/rainbowkit/src/wallets/walletConnectors
+Downloaded 2026-10-03. See LICENSE. Brand marks belong to their respective wallet publishers.
+Additional installed wallets supply their own icon through EIP-6963; icons render only as images, never inline markup.

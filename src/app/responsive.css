@@ -1,0 +1,45 @@
+/* Shared spacing and containment for product screens. */
+:root { --ui-gap: 24px; --ui-inset: clamp(16px, 2.5vw, 32px); }
+*, *::before, *::after { box-sizing: border-box; }
+.main-shell, .page, .panel, .quantum-section, .quantum-home-sections { min-width: 0; }
+.workspace-shell .page { width: 100%; max-width: 1600px; margin-inline: auto; padding-inline: var(--ui-inset); }
+:is(.launch-fields,.form-grid,.quantum-grid,.launch-create-grid,.launch-detail-grid,.finance-columns,.stack-hardware,.stack-software) { gap: var(--ui-gap); }
+:is(.launch-fields,.form-grid,.quantum-grid,.launch-create-grid,.launch-detail-grid,.finance-columns,.stack-hardware,.stack-software) > * { min-width: 0; }
+.launch-fields label { margin: 0; align-content: start; }
+.launch-fields :is(input,select,textarea) { min-width: 0; max-width: 100%; }
+.launch-steps { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+.launch-steps button { justify-content: flex-start; margin: 0; min-width: 0; }
+.launch-steps span { flex-shrink: 0; }
+.curve-route-options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--ui-gap); align-items: stretch; }
+.curve-route-option { min-width: 0; height: 100%; text-align: left; }
+:is(.quantum-actions,.lab-actions) { gap: 12px; flex-wrap: wrap; align-items: center; }
+:is(.quantum-section-heading,.section-heading,.quantum-home-section-heading) { gap: var(--ui-gap); flex-wrap: wrap; }
+:is(.panel,.stack-card,.launch-record,.launch-preview) :is(p,h1,h2,h3,dd,a) { overflow-wrap: anywhere; }
+pre { max-width: 100%; overflow-x: auto; }
+.table-scroll,.quantum-device-table { max-width: 100%; overflow-x: auto; }
+dialog { max-width: calc(100vw - 32px); max-height: calc(100dvh - 32px); overflow-y: auto; }
+@media(max-width:1000px) {
+  .workspace-shell :is(.builder-layout,.lab-layout),.launch-create-grid,.launch-detail-grid,.finance-columns { grid-template-columns: minmax(0,1fr); }
+}
+@media(max-width:700px) {
+  :root { --ui-gap: 16px; }
+  .workspace-shell .page { padding-inline: 16px; }
+  .workspace-shell .page-heading { flex-wrap: wrap; align-items: flex-start; }
+  .workspace-shell .page-heading > div { min-width: 0; flex: 1 1 220px; }
+  .workspace-shell :is(.quantum-section,.data-widget,.workload-content) { padding: 20px; }
+  .launch-fields,.form-grid,.curve-route-options,.finance-overview,.stack-software { grid-template-columns: minmax(0,1fr); }
+  .launch-steps { gap: 8px; }
+  .launch-steps button { flex-direction: column; align-items: flex-start; padding: 12px 8px; font-size: 11px; line-height: 1.5; }
+  .launch-preview { order: initial; }
+  .workspace-shell :is(input,select,textarea),dialog :is(input,select,textarea) { font-size: 16px; }
+  :is(.quantum-actions,.lab-actions) > .button { flex: 1 1 150px; justify-content: center; min-height: 44px; }
+  .wallet-picker-grid { grid-template-columns: minmax(0,1fr); }
+  .workspace-shell .topbar { gap: 8px; padding-inline: 16px; flex-wrap: wrap; height: auto; min-height: 72px; padding-block: 12px; }
+  .workspace-identity { min-width: 0; }
+  .workspace-location { overflow: hidden; text-overflow: ellipsis; }
+}
+@media(max-width:380px) {
+  .workspace-shell :is(.quantum-section,.data-widget) { padding: 16px; }
+  .workspace-shell .page-heading h1 { font-size: 28px; }
+  .workspace-divider,.workspace-location { display: none; }
+}

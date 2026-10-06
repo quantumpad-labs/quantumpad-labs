@@ -1,0 +1,4 @@
+Natural Earth 1:50m coastline, public domain.
+Source: https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_coastline.geojson
+Terms: https://www.naturalearthdata.com/about/terms-of-use/
+Globe rendering and illustrative particle field are original QuantumPad code.

@@ -1,0 +1,43 @@
+name: Validate QuantumPad
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: test-only-password
+          POSTGRES_DB: exaflop_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.17.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: node --import tsx scripts/self-service-check.ts
+        env:
+          DATABASE_URL: postgres://postgres:test-only-password@localhost:5432/exaflop_test
+      - run: node --import tsx scripts/launchpad-check.ts
+        env:
+          DATABASE_URL: postgres://postgres:test-only-password@localhost:5432/exaflop_test
+      - run: pnpm contracts:compile
+      - run: git diff --exit-code -- src/generated/genesis-token.json public/downloads/genesis-token-source.json src/generated/genesis-sale.json public/downloads/genesis-sale-source.json
+      - run: pnpm typecheck
+      - run: pnpm build

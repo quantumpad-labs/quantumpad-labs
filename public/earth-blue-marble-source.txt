@@ -1,0 +1,6 @@
+Blue Marble - A Seamless Image Mosaic of the Earth
+NASA/Goddard Space Flight Center Scientific Visualization Studio.
+Blue Marble data courtesy of Reto Stockli (NASA/GSFC) and NASA's Earth Observatory.
+Source: https://svs.gsfc.nasa.gov/2915/
+Texture: https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002915/bluemarble-2048.png
+Historic satellite composite, not live imagery or compute telemetry.

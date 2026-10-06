@@ -1,0 +1,152 @@
+{
+  "runpod": {
+    "file": "runpod.png",
+    "source": "https://cdn.prod.website-files.com/69ce570adca53340abab8376/69e08b4ced16e020149fc61d_favicon_www_runpod_io_256x256.png",
+    "sha256": "633d808bb55ef6e093c91a6ab1c0aad340f83ba71fb66fd72245d39f9c53418a",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "golem": {
+    "file": "golem.png",
+    "source": "https://cdn.prod.website-files.com/62446d07873fde065cbcb8d5/62446d07873fde3a96bcb905_Golem_Submark_Positive_RGB_256.png",
+    "sha256": "5d14f2e5e0405a1942f5710f342ee72cad5f22a44f147bf4d996b35e1a7cc9e9",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "lambda": {
+    "file": "lambda.svg",
+    "source": "https://lambda.ai/hubfs/favicon-48x48-1.svg",
+    "sha256": "2bcabdb3b103c5f4c71a171fa9d3ff943187606e1c2973e1ec93d11a3dfb0701",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "vast": {
+    "file": "vast.svg",
+    "source": "https://vast.ai/logos/vast_logo_cropped_nostroke.svg",
+    "sha256": "61d7d2e877f80a0e0fa1090fdce305f253009042549848ec5daf40724bbc4bb8",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "io": {
+    "file": "io.svg",
+    "source": "https://io.net/icons/favicon-source.svg",
+    "sha256": "fc0e1f33af77557cde1592f3dc34e13deb7d014324065400eb925dc6dcb87997",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "salad": {
+    "file": "salad.svg",
+    "source": "https://salad.com/img/favicon.svg",
+    "sha256": "360ac165ab4f8504b233dfe6a9115601e10156a5a15a3cfe27c07f2ce997deae",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "fluidstack": {
+    "file": "fluidstack.png",
+    "source": "https://www.fluidstack.io/icon-dark.png",
+    "sha256": "a9627985cbcce5051059017bf0e808004d4667ad72a063e36c2cf5c7bf90bd96",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "nvidia": {
+    "file": "nvidia.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nvidia.svg",
+    "sha256": "db04aa87719392f22aa280fa0c9086d70d9e805024749747676fea820f7b00b4",
+    "attribution": "Simple Icons (CC0); logo trademarks belong to their owners. Official brand color applied."
+  },
+  "coreweave": {
+    "file": "coreweave.png",
+    "source": "https://cdn.prod.website-files.com/62ba1fb86485b6d5029975c4/676dd39272d1e888a56c48ad_logo_coreweave_solo_256x256.png",
+    "sha256": "1dc8e5dbf1295d06f597065bde58bb58ea6d43386f689fc57fe3b24b5b14d44a",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "docker": {
+    "file": "docker.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/docker.svg",
+    "sha256": "ba1fb157870b2ec02e054aed42154ac7418e25af91ec321fd328d17cad4023cd",
+    "attribution": "Simple Icons (CC0); logo trademarks belong to their owners. Official brand color applied."
+  },
+  "amd": {
+    "file": "amd.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/amd.svg",
+    "sha256": "e58aceac0fe6c92a8e2368361370c1215284b3e8c7da566dd0adb71e602e6c52",
+    "attribution": "Simple Icons (CC0); AMD trademark belongs to its owner. White monochrome rendering for dark backgrounds."
+  },
+  "tensorflow": {
+    "file": "tensorflow.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tensorflow.svg",
+    "sha256": "9e57fe2766e52bcaea9d10dc7997ddaed61dabe21f5bfaccdd61b064bfd781be",
+    "attribution": "Simple Icons (CC0); logo trademarks belong to their owners. Official brand color applied."
+  },
+  "tensordock": {
+    "file": "tensordock.png",
+    "source": "https://tensordock.com/assets/favicon/apple-touch-icon.png",
+    "sha256": "8e45ad498f4e760dc237042b55d303ef5e0e4e19c94fed1bbbc05fc74507a24e",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "pytorch": {
+    "file": "pytorch.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pytorch.svg",
+    "sha256": "aaa16ace4553ae5eece75d9e2e0b4cb7fce1f340424631db5f9cd08fe6fa6ed2",
+    "attribution": "Simple Icons (CC0); logo trademarks belong to their owners. Official brand color applied."
+  },
+  "akash": {
+    "file": "akash.ico",
+    "source": "https://akash.network/favicon.ico",
+    "sha256": "d50aacffa5733ece1726c05cf7ddc8a7cad9956b2a4980f2d996fff1ed6cc944",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "huggingface": {
+    "file": "huggingface.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg",
+    "sha256": "c167703fa2fb404f1de9bbbd38b6ac6c4c01dbeae49e7783521333ba03ab706a",
+    "attribution": "Simple Icons (CC0); logo trademarks belong to their owners. Official brand color applied."
+  },
+  "jupyter": {
+    "file": "jupyter.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/jupyter.svg",
+    "sha256": "3f183c120635601352bccf48f06a5bc621eff1dd55ce6effe19d9f69951bce85",
+    "attribution": "Simple Icons (CC0); logo trademarks belong to their owners. Official brand color applied."
+  },
+  "blender": {
+    "file": "blender.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/blender.svg",
+    "sha256": "de978573b83413310e64ff7d4d7362abc1f3375c260856e5d2cbe75a5394d3cb",
+    "attribution": "Simple Icons (CC0); logo trademarks belong to their owners. Official brand color applied."
+  },
+  "googlecolab": {
+    "file": "googlecolab.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlecolab.svg",
+    "sha256": "fd36cfe527544db549783ee05b0d5035337f7deb45c6c3fa9ef3ce5b04149b89",
+    "attribution": "Simple Icons (CC0); logo trademarks belong to their owners. Official brand color applied."
+  },
+  "hyperstack": {
+    "file": "hyperstack.webp",
+    "source": "https://www.hyperstack.cloud/hubfs/hyperstack_2025/hyperstack_Fav_Icon.webp",
+    "sha256": "8ad592664c4a0a93684daa06b9c2651be563c46badc136f6488683fe70111029",
+    "attribution": "Official brand website; trademarks and artwork belong to their owners."
+  },
+  "vllm": {
+    "file": "vllm.svg",
+    "source": "https://vllm.ai/vLLM-Logo.svg",
+    "sha256": "12a0812e247cef4b31160e0d0267142ffe491491537f3e275d8bc645b61eb1a8",
+    "attribution": "Official vLLM website; artwork belongs to its owners."
+  },
+  "qiskit": {
+    "file": "qiskit.svg",
+    "sha256": "300f9bcafdd24574f4404fe97391663c33334a74739b6ed5f9547f41182305b1",
+    "source": "https://cdn.simpleicons.org/qiskit/white",
+    "attribution": "Brand identification only; marks belong to their owners. No endorsement implied."
+  },
+  "pennylane": {
+    "file": "pennylane.png",
+    "sha256": "c57698c9efc30e00e7dbe91c95290048a7c61263bd6c5125fceba48cb44d0646",
+    "source": "https://pennylane.ai/icons/icon-96x96.png",
+    "attribution": "Brand identification only; marks belong to their owners. No endorsement implied."
+  },
+  "ibm": {
+    "file": "ibm.ico",
+    "sha256": "c55178f64fe6fa56fdd4bbd63e5431ec4ca2f9529d907397d5d65f3980891caa",
+    "source": "https://quantum.cloud.ibm.com/favicon.ico",
+    "attribution": "Brand identification only; marks belong to their owners. No endorsement implied."
+  },
+  "amazonwebservices": {
+    "file": "amazonwebservices.png",
+    "sha256": "f80d3ec6c5b2adee55267ecfcf2fc4131aa8551a546b7a1971b5e465c05c2403",
+    "source": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png",
+    "attribution": "Brand identification only; marks belong to their owners. No endorsement implied."
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve the upstream bytes used by the vendored skill SHA-256 manifest.
+.agents/skills/** text eol=lf
